@@ -1,0 +1,76 @@
+@import "../../font/fonts";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  direction: rtl;
+}
+
+.CartItem {
+  width: 100px;
+  height: 146px;
+  border-radius: 15px 15px 15px 15px;
+  background-color: aqua;
+  align-items: center;
+  justify-content: center;
+  .picT {
+    width: 80px;
+    height: 79px;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+  }
+  .text {
+    width: 81px;
+    height: 45px;
+    position: relative;
+    right: 10px;
+    bottom: 8px;
+    .name {
+      font-family: Vazirmatn;
+      font-size: 7px;
+      font-weight: 700;
+      line-height: 20px;
+      text-align: center;
+      width: 80px;
+      height: 6px;
+    }
+    .cours {
+      font-family: Vazirmatn;
+      font-size: 5px;
+      font-weight: 700;
+      line-height: 22px;
+      width: 81px;
+      height: 4px;
+      color: #3F6745;
+      margin-top: 6px;
+
+    }
+    .p {
+      font-family: Vazirmatn;
+      font-size: 4px;
+      font-weight: 400;
+      line-height: 9px;
+      width: 79px;
+      text-align: center;
+      height: 12px;
+      margin-right: 2px;
+      margin-top: 6px;
+      margin-bottom: 6px;
+      color: #868686;
+
+    }
+    .p2 {
+      width: 81px;
+      height: 5px;
+      font-family: Vazirmatn;
+      font-size: 6px;
+      font-weight: 400;
+      line-height: 22px;
+      text-align: center;
+    }
+  }
+}

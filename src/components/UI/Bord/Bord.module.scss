@@ -1,0 +1,53 @@
+@import "../../font/fonts";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  direction: rtl;
+}
+
+.body {
+  width: 430px;
+  height: 692px;
+  background: #3f67450f;
+
+  .h1 {
+    width: 142px;
+    height: 11px;
+    font-family: Vazirmatn;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: center;
+    color: #3f6745;
+    margin-top: 32px;
+    margin-right: 144px;
+  }
+  .board {
+    width: 318px;
+    height: 530px;
+    gap: 18px;
+    margin-top: 37px;
+    margin-right: 56px;
+    background-color: aqua;
+  }
+
+  .button {
+    margin-top: 30px;
+    margin-right: 190px;
+    width: Fixed 50px;
+    height: Fixed 20px;
+    padding: 0px 11px 0px 11px;
+    border-radius: 100px 100px 100px 100px;
+    background-color: rgba(255, 88, 0, 0.85);
+    font-family: Public Sans;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+
+  }
+}

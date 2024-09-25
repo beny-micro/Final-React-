@@ -1,0 +1,127 @@
+@import "../../font/fonts";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  direction: rtl;
+}
+
+.header {
+  width: 430px;
+  height: 290px;
+  justify-content: space-between;
+}
+
+.up {
+  display: flex;
+}
+
+.right {
+  display: flex;
+  width: 127px;
+  height: 107px;
+  align-items: center;
+}
+
+.vector {
+  width: 127px;
+  height: 107px;
+}
+
+.logo {
+  width: 69px;
+  height: 30px;
+  position: absolute;
+  right: 32.27px;
+  top: 43px;
+}
+
+.menubg {
+  border: none;
+  background-color: #ffffff;
+  width: 23px;
+  height: 23px;
+  margin-top: 23px;
+  margin-right: 277px;
+  margin-right: 248px;
+}
+
+.Menu {
+  width: 23px;
+  height: 23px;
+}
+
+.p {
+  width: 155px;
+  height: 61px;
+  position: absolute;
+  right: 32.26px;
+
+  .h {
+    width: 78px;
+    height: 22px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21.88px;
+  }
+
+  .p1 {
+    width: 155px;
+    height: 32px;
+    font-family: Vazirmatn;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 15.63px;
+  }
+}
+.img {
+  .left {
+    width: 258.66px;
+    height: 151.06px;
+    position: absolute;
+    top: 86.2px;
+    right: 171.5px;
+  }
+
+  .in {
+    width: 269.82px;
+    height: 182.15px;
+    position: absolute;
+    top: 85.55px;
+    right: 160.41px;
+  }
+}
+
+.input {
+  width: 130px;
+  height: 25px;
+  position: absolute;
+  top: 183px;
+  right: 32.26px;
+
+  .input1 {
+    width: 105px;
+    height: 16px;
+    padding: 0px 23px 0px 11px;
+    margin-top: 4.5px;
+  }
+  .serch {
+    margin-top: 7px;
+    width: 25px;
+    height: 25px;
+    position: relative;
+    top: 9px
+  }
+}
+
+.iPhone {
+  margin-top: 20px;
+  margin-right: 28px;
+  
+  .img1 {
+    width: 75px;
+    height: 15px;
+  }
+}

@@ -1,0 +1,189 @@
+@import "../../font/fonts";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  direction: rtl;
+}
+footer {
+  width: 430px;
+  height: 167px;
+  background: #609468;
+  padding: 23px 32px 23px 32px;
+
+  .bord {
+    width: 366px;
+    height: 121px;
+    gap: 38px;
+    display: flex;
+
+    .right {
+      width: 89px;
+      height: 115px;
+      .logo {
+        width: 88.73px;
+        height: 23px;
+        padding: 0px 0px 0px 23px;
+        gap: 6px;
+        display: flex;
+
+        h1 {
+          width: 35px;
+          height: 18px;
+          font-family: Vazirmatn;
+          font-size: 13px;
+          font-weight: 700;
+          line-height: 20.31px;
+          margin-top: 5px;
+          color: linear-gradient(180deg, #173420 0%, #316842 100%);
+        }
+        img {
+          width: 24.73px;
+          height: 23px;
+        }
+      }
+      .paraph {
+        width: 89px;
+        height: 85px;
+        margin-top: 7px;
+        .up {
+          width: 89px;
+          height: 63px;
+          h2 {
+            width: 43px;
+            height: 9px;
+            font-family: Vazirmatn;
+            font-size: 10px;
+            font-weight: 600;
+            line-height: 9px;
+            letter-spacing: 0.002em;
+            text-align: right;
+            color: #1e3322;
+          }
+          .p {
+            width: 89px;
+            height: 44px;
+            margin-top: 10px;
+            font-family: Vazirmatn;
+            font-size: 5px;
+            font-weight: 500;
+            line-height: 9px;
+            text-align: right;
+            color: #ffffff;
+            .p-2 {
+              margin-top: 4px;
+              margin-bottom: 4px;
+            }
+          }
+        }
+        .link {
+          width: 75px;
+          height: 15px;
+          gap: 5px;
+          margin-top: 7px;
+          display: flex;
+          a {
+            width: 15px;
+            height: 15px;
+            img {
+              width: 15px;
+              height: 15px;
+            }
+          }
+        }
+      }
+    }
+    .center {
+      width: 98px;
+      height: 121px;
+      display: flex;
+      gap: 19px;
+
+      h1 {
+        font-family: Public Sans;
+        font-size: 10px;
+        font-weight: 600;
+        line-height: 20px;
+        letter-spacing: 0.002em;
+        text-align: right;
+        color: #1e3322;
+        width: 30px;
+        height: 20px;
+        margin-bottom: 2px;
+      }
+      p {
+        font-family: Public Sans;
+        font-size: 5px;
+        font-weight: 500;
+        line-height: 9px;
+        text-align: right;
+        color: #ffffff;
+      }
+      .margin {
+        margin-top: 6px;
+      }
+    }
+    .shear {
+      width: 103px;
+      height: 40px;
+      h1 {
+        font-family: Public Sans;
+        font-size: 10px;
+        font-weight: 600;
+        line-height: 18px;
+        text-align: right;
+        color: #1e3322;
+        width: 71px;
+        height: 7px;
+        margin-top: 9px;
+      }
+      p {
+        font-family: Vazirmatn;
+        font-size: 5px;
+        font-weight: 500;
+        line-height: 9px;
+        text-align: justified;
+        color: #ffffff;
+        width: 102px;
+        height: 18px;
+        margin-top: 9px;
+      }
+      form {
+        width: 103px;
+        height: 40px;
+        input {
+          width: 103px;
+          height: 16px;
+          padding: 3px 8px 3px 62px;
+          border-radius: 3px 3px 3px 3px;
+          background: #ffffff;
+          border: none;
+          font-family: Vazirmatn;
+          font-size: 5px;
+          font-weight: 400;
+          line-height: 10px;
+          text-align: right;
+          color: #6d737a;
+        }
+        .button {
+          width: 35px;
+          height: 15px;
+          padding: 3px 0px 3px 0px;
+          border-radius: 100px 100px 100px 100px;
+          background: linear-gradient(
+            180deg,
+            rgba(255, 88, 0, 0.85) 0%,
+            #ff9d00 100%
+          );
+          font-family: Vazirmatn;
+          font-size: 5px;
+          font-weight: 600;
+          line-height: 9px;
+          text-align: center;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}

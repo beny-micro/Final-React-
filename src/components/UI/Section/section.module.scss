@@ -1,0 +1,141 @@
+@import "../../font/fonts";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  direction: rtl;
+}
+
+.section {
+  width: 430px;
+  height: 262px;
+
+  .p {
+    width: 80px;
+    height: 11px;
+    font-family: Vazirmatn;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: center;
+    margin-top: 26px;
+    margin-right: 174.99px;
+    color: #3f6745;
+  }
+
+  .board {
+    display: flex;
+    width: 364.01px;
+    height: 146px;
+    margin-right: 32.99px;
+    margin-top: 65px;
+    justify-content: space-between;
+    gap: 9px;
+    background-color: #ff9d00;
+    .right {
+      width: 14px;
+      height: 14px;
+      padding: 4px 4px 4px 4px;
+      border-radius: 50%;
+      align-items: center;
+      background-color: #ffffff;
+      box-shadow: -4px 4px 20px 0px rgba(32, 180, 134, 0.12);
+      margin-top: 66px;
+
+      .img {
+        width: 3.13px;
+        height: 6.25px;
+        top: 1.88px;
+        left: 3.75px;
+        border: 1px 1px 1px 1px;
+      }
+    }
+    .left {
+      width: 14px;
+      height: 14px;
+      padding: 2px 2px 2px 2px;
+      gap: 10px;
+      border-radius: 1000px 1000px 1000px 1000px;
+      margin-top: 66px;
+      align-items: center;
+      background: linear-gradient(
+        180deg,
+        rgba(255, 88, 0, 0.85) 0%,
+        #ff9d00 100%
+      );
+
+      img {
+        width: 8px;
+        height: 8px;
+        margin-bottom: 22px;
+        margin-right: 1px;
+      }
+    }
+    .cart {
+        .cartItem {
+          width: 100px;
+          height: 146px;
+          background: #ffffff;
+          padding: 10px 0px 7px 0px;
+          border-radius: 15px 15px 15px 15px;
+          img {
+            width: 80px;
+            height: 79px;
+            margin-right: 10px;
+          }
+          h1 {
+            width: 80px;
+            height: 4px;
+            font-family: Vazirmatn;
+            font-size: 5px;
+            font-weight: 400;
+            line-height: 30px;
+            text-align: right;
+            color: #000000;
+            margin-right: 10px;
+          }
+          .star {
+            display: flex;
+            width: 56px;
+            height: 9px;
+            margin-top: 10px;
+            gap: 4px;
+            img {
+              width: 42px;
+              height: 6px;
+              margin-top: 1.5px;
+              margin-bottom: 1.5px;
+            }
+            p {
+              width: 10px;
+              height: 9px;
+              font-family: Vazirmatn FD;
+              font-size: 5px;
+              font-weight: 400;
+              line-height: 30px;
+              text-align: center;
+              color: #000000;
+            }
+          }
+          .end {
+            margin-top: 5px;
+            margin-right: 10px;
+            width: 81px;
+            height: 14px;
+            display: flex;
+            p {
+              width: 46px;
+              height: 8px;
+              font-family: Vazirmatn FD;
+              font-size: 8px;
+              font-weight: 400;
+              line-height: 30px;
+              text-align: right;
+              color: #000000;
+            }
+          }
+        }
+      }
+  }
+}
