@@ -10,12 +10,13 @@
 .YourText {
   width: 430px;
   height: 262px;
+  
   .baner {
     width: 364px;
     height: 224px;
     margin-top: 29px;
     margin-right: 33.98px;
-    h1 {
+    .h1 {
       font-family: Vazirmatn;
       font-size: 14px;
       font-weight: 700;
@@ -43,7 +44,7 @@
         justify-content: center;
         text-align: center;
         background: #ff9d00;
-        img {
+        .img1 {
           padding-bottom: 3px;
           padding-left: 1px;
         }
@@ -59,7 +60,7 @@
           rgba(255, 88, 0, 0.85) 0%,
           #ff9d00 100%
         );
-        img {
+        .img2 {
           padding-bottom: 9px;
           padding-right: 2px;
         }

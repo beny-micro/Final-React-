@@ -1,4 +1,4 @@
-import "./Article.scss";
+import styles from "./Article.module.scss";
 import Button from "../Button/Button";
 import Right from "../../../assets/YourText/Right.png";
 import Left from "../../../assets/YourText/Left.png";
@@ -8,25 +8,27 @@ import sec from "../../../assets/YourText/sec.png";
 export default function Article({ api }) {
   return (
     <>
-      <div className="YourText">
-        <div className="baner">
-          <h1>مدرسین ما</h1>
-          <div className="bord">
-            <Button className="right">
-              <img src={Right} alt="Right" />
+      <div className={styles.YourText}>
+        <div className={styles.baner}>
+          <h1 className={styles.h1}>مدرسین ما</h1>
+          <div className={styles.bord}>
+            <Button className={styles.right}>
+              <img className={styles.img1} src={Right} alt="Right" />
             </Button>
              {/* {api.length && api.map((api) => <CartItem key={api.id}></CartItem>)} */}
 
-            <CartItem key={4} api={api} />
-            <CartItem key={5} api={api} />
-            <CartItem key={6} api={api} />
+            <div className={styles.Tv}>
+              <CartItem key={4} api={api} />
+              <CartItem key={5} api={api} />
+              <CartItem key={6} api={api} />
+            </div>
 
-            <Button className="left">
-              <img src={Left} alt="Left" />
+            <Button className={styles.left}>
+              <img className={styles.img2} src={Left} alt="Left" />
             </Button>
           </div>
         </div>
-        <img className="sec" src={sec} alt="sec" />
+        <img className={styles.sec} src={sec} alt="sec" />
       </div>
     </>
   );
